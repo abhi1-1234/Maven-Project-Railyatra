@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RailYatra_Suite">
+	
+	<listeners>
+		<listener class-name=""></listener>
+	</listeners>
+	
+  <test thread-count="1" name="Test_RailYatra on Chrome">
+	  <parameter name="Browser" value="Chrome"></parameter>
+    <classes>
+      <class name="testPack.Calender_Textbox"/>
+      <class name="testPack.From_and_to_textbox"/>
+    </classes>
+  </test> <!-- Test_RailYatra -->
+  
+  <test thread-count="1" name="Test_RailYatra on Firefox">
+	  <parameter name="Browser" value="Firefox"></parameter>
+    <classes>
+      <class name="testPack.Calender_Textbox"/>
+      <class name="testPack.From_and_to_textbox"/>
+    </classes>
+  </test> <!-- Test_RailYatra -->
+  
+  <test thread-count="1" name="Test_RailYatra on Edge">
+	  <parameter name="Browser" value="Edge"></parameter>
+    <classes>
+      <class name="testPack.Calender_Textbox"/>
+      <class name="testPack.From_and_to_textbox"/>
+    </classes>
+  </test> <!-- Test_RailYatra -->
+</suite> <!-- RailYatra_Suite -->

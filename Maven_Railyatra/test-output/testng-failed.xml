@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RailYatra_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test_RailYatra on Chrome(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="testPack.From_and_to_textbox">
+        <methods>
+          <include name="Close_Browser"/>
+          <include name="Open_Browser"/>
+          <include name="Creating_Objects"/>
+          <include name="Verify_From_Side_Textbox"/>
+          <include name="Clear_Object"/>
+          <include name="Verify_To_Side_Textbox"/>
+        </methods>
+      </class> <!-- testPack.From_and_to_textbox -->
+      <class name="testPack.Calender_Textbox">
+        <methods>
+          <include name="Clear_Objects"/>
+          <include name="OpenBrowser"/>
+          <include name="Creating_Object"/>
+          <include name="Verify_Calender_Textbox"/>
+          <include name="Close_Browser"/>
+        </methods>
+      </class> <!-- testPack.Calender_Textbox -->
+    </classes>
+  </test> <!-- Test_RailYatra on Chrome(failed) -->
+</suite> <!-- Failed suite [RailYatra_Suite] -->
